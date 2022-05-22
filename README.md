@@ -1,6 +1,3 @@
-#This is a fork
-I'mgoing to add a feature allowing to make timestamps in the chat to find certain point in conversation weeks (or more) after it happened.
-
 # django-chat-app-project
 A basic realtime chat app project written with the Django framework and Django Channels.
 ## Live Demo
