@@ -26,4 +26,5 @@ class Message(models.Model):
     text = models.CharField(max_length=200)
     attachment = models.ImageField(blank=True)
     conversation_id = models.ForeignKey(Conversation, on_delete=models.CASCADE)
+    highlighted = models.BooleanField()
     timestamp = models.DateTimeField()
