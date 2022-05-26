@@ -10,8 +10,7 @@ SECRET_KEY = env("SECRET_KEY")
 
 DATABASES = {"default": env.db("DATABASE_URL")}
 
-ALLOWED_HOSTS = ['*'
-]
+ALLOWED_HOSTS = ['*']
 
 CHANNEL_LAYERS = {
     "default": {
